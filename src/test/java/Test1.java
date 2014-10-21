@@ -11,11 +11,12 @@ public class Test1 {
 
         int a = 5;
         int b = 7;
+        int expected = 12;
 
         Calculator c = new Calculator();
         int result = c.getSum(a, b);
 
-        assertEquals(12, result, 0);
+        assertEquals(expected, result, 0);
     }
 }
 
